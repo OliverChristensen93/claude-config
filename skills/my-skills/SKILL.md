@@ -23,6 +23,7 @@ When invoked, present the curated favourites below. Show each skill's invocation
 
 ### My custom skills
 - **`/pr-quick`** — Fast commit → push → PR (if none exists), delegated to a lower-tier model (Sonnet/Haiku) so it runs cheaply without spending your main model's budget. Follows your conventions (no `git add -A`, 1-line commits, branch off `dev` if on default, PR targets `dev`). **When:** you just want the current work shipped into a PR quickly.
+- **`/ports`** — Lists all occupied localhost ports + the process on each, with the git repo + branch for any dev server. **When:** you want to see what servers are running, find what's on a port, or track down a stray dev server to kill.
 
 ### Meta
 - **`/update-skills`** — Updates everything: refreshes marketplaces, updates every installed plugin, and re-pulls the Matt Pocock skills. **When:** periodically, or whenever you want the latest versions. Restart Claude Code afterward for plugin updates to apply.
